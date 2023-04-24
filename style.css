@@ -1,0 +1,262 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;800;900&display=swap');
+
+/* default style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+    width: 0.5rem;
+    background: #fff;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 5rem;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+/* Page-1  */
+#page-1 {
+    background: #fff;
+}
+
+.page-one-img,
+.page-one-heading {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.page-one-img img {
+    width: 100%;
+    height: auto;
+}
+
+.page-one-heading {
+    padding-left: 70px;
+    box-sizing: border-box;
+    max-width: calc(50% - 20px);
+    margin-top: 24vh;
+}
+
+.page-one-heading h1 {
+    font-size: 5rem;
+    font-weight: 300;
+    line-height: 1;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.page-one-heading p {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.page-one-heading h1,
+.page-one-heading p,
+.page-one-heading button {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.fcc-btn {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    margin-top: 60px;
+}
+
+.fcc-btn:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.fcc-btn i {
+    margin-right: 10px;
+}
+
+
+
+/* Section two [ page -2] */
+
+.page-2 {
+    display: flex;
+    background: black;
+
+}
+
+.page-two-heading {
+    margin-top: 9rem;
+    margin-left: 9rem;
+
+}
+
+.page-two-heading h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    color: #a4b4bf;
+}
+
+.page-two-para {
+    color: white;
+    font-size: 2.7rem;
+    line-height: 1;
+    font-weight: 300;
+    padding: 9rem 4px 0 7rem;
+}
+
+.page-two-bg {
+    background-color: black;
+}
+
+/* Section two [ page -3] */
+
+.page-3 {
+    display: block;
+    background: #a4b4bf;
+}
+
+.page-three-heading {
+    width: 100%;
+    padding: 3rem 0 0 8rem;
+}
+
+.page-three-heading h1 {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.page-three-down {
+    display: flex;
+    padding: 7rem 20rem 2rem 8rem;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.page-three-down h2 {
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 1rem 0;
+}
+
+.page-three-down p {
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 1.5;
+
+}
+
+/* page 4 section */
+
+.page-4 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 3rem 2rem 0 2rem;
+    background: #e8e6e6;
+}
+
+.page-four-heading h1 {
+    font-size: 4rem;
+    font-weight: 300;
+
+}
+
+.work-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 7rem 0 6rem;
+
+}
+
+.work-items img {
+    width: 10rem;
+    margin-bottom: 3rem;
+}
+
+.work-items h3 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+.work-items p {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+/* page 5 section */
+
+#page-5 {
+    background: #b4a99a;
+}
+
+.page-five-img,
+.page-five-heading {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.page-five-img img {
+    min-width: 100%;
+    margin-left: 0;
+    height: auto;
+}
+
+.page-five-heading {
+    padding-left: 70px;
+    box-sizing: border-box;
+    max-width: calc(50% - 20px);
+    margin-top: 24vh;
+}
+
+.page-five-heading h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1;
+
+}
+
+.page-five-heading p {
+    font-weight: 300;
+
+}
+
+.page-five-heading h1,
+.page-five-heading p {
+    margin: 0;
+    padding: 10px 0;
+}
